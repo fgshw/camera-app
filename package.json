@@ -10,12 +10,17 @@
   },
   "dependencies": {
     "expo": "~53.0.22",
+    "expo-camera": "~16.1.11",
+    "expo-media-library": "~17.1.7",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
     "react-native": "0.79.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@types/react": "^19.1.12",
+    "@types/react-native": "^0.73.0",
+    "typescript": "~5.8.3"
   },
   "private": true
 }
