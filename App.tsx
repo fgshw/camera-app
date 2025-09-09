@@ -27,7 +27,7 @@ export default function App() {
   useEffect(() => {
     const requestPermission = async () => {
       if (!cameraPermission?.granted) {
-        await requestCameraPermission(); // ✅ ขอ permission กล้องจริงๆ
+        await requestCameraPermission(); // Request
       }
       const mediaLibraryStatus = await MediaLibrary.requestPermissionsAsync();
       setHasMediaLibraryPermission(mediaLibraryStatus.status === "granted");
@@ -106,7 +106,7 @@ export default function App() {
         style={{ flex: 1, width: "100%" }}
         facing={facing}
         flash={flash}
-        onCameraReady={() => setIsCameraReady(true)} // ✅ รอจนกล้องพร้อม
+        onCameraReady={() => setIsCameraReady(true)} // Ready
       />
       <View style={styles.controls}>
         <Button title="📸 Take Picture" onPress={handleTakePicture} />
