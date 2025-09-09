@@ -7,6 +7,8 @@ Camera | 10 points | 09/09/2568
 Take Picture - กดเพื่อถ่ายรูปภาพ  <br>
 Switch Camera - กลับกล้องหน้า - หลัง  <br>
 Flash (On/Off) - เปิดปิดแฟลชหลังกด Take Picture  <br>
+Retake - กดกลับไปหน้าหลักเพื่อถ่ายรูปใหม่ <br>
+<img src="./assets/retake.jpg" width="300"> <br>
 
 การติดตั้ง  <br>
 - สร้างโปรเจคจาก expo และเปิดโค้ดพร้อมตั้งค่าเพิ่มเข้าไปในโค้ดต่อไปนี้  <br>
